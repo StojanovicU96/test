@@ -1,0 +1,279 @@
+@media only screen and (max-width: 999px) {
+    #newsletter-section{
+        background-color: $redColor;
+        text-align: center;
+    }
+    
+    .sub-section{
+        height: 58.18px;
+        top: 25px;
+        margin-top: 45px;
+    }
+    
+    input{
+        height: 57px;
+        width: 240px;
+        border: none;
+        padding-left: 20px;
+        background-color: $SubBackGroundColor;
+        border: $SubBorder;
+        border-right: none;
+        outline: none;
+    }
+    
+    ::placeholder {
+        color: white;
+        opacity: 1; 
+      }
+    
+    #send-btn{
+        padding-left: 0;
+        position: relative;
+        right: 4px;
+        height: 57px;
+        width: 90px;
+        background-color: $SubBackGroundColor;
+        height: 57px;
+        width: 137px;
+        border: none;
+        color: rgba(255, 255, 255, 0.3);
+        border:$SubBorder;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            color: white;
+        }
+    }
+
+    #contact-section{
+        margin-top: 20px;
+        color: white;
+    }
+    
+    .contact-section-details{
+       padding-bottom: 0 !important;
+    }
+    
+    .contact-item{
+        margin-bottom: 30px;
+    
+        font: {
+            weight: 400;
+            size: 14px;
+        }
+    
+        line-height: 21px;
+    }
+    
+    .quick-link-item{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 20px;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    
+    .quick-link-main-item{
+        font-weight: 700;
+    }
+        
+    table{
+        border-spacing: 20px;
+        margin: 0 auto;
+    }
+
+    .footer-item{
+        display: inline;
+    }
+    
+    #line{
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #footer-section{
+        color: white;
+        background-color: $redColor;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #newsletter-section{
+        background-color: $redColor;
+        padding: 100px 100px;
+        padding-bottom: 20px;
+    }
+    
+    .sub-section{
+        width: 384px;
+        height: 58.18px;
+        top: 25px;
+    }
+    
+    input{
+        height: 57px;
+        width: 240px;
+        border: none;
+        padding-left: 20px;
+        background-color: $SubBackGroundColor;
+        border: $SubBorder;
+        border-right: none;
+        outline: none;
+    }
+    
+    ::placeholder {
+        color: white;
+        opacity: 1; 
+      }
+    
+    #send-btn{
+        padding-left: 0;
+        position: relative;
+        right: 4px;
+        height: 57px;
+        width: 90px;
+        background-color: $SubBackGroundColor;
+        height: 57px;
+        width: 137px;
+        border: none;
+        color: rgba(255, 255, 255, 0.3);
+        border:$SubBorder;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            color: white;
+        }
+    }
+
+    #contact-section{
+        margin-top: 20px;
+        color: white;
+    }
+    
+    .contact-section-details{
+       padding-bottom: 0 !important;
+    }
+    
+    .contact-item{
+        margin-bottom: 30px;
+    
+        font: {
+            weight: 400;
+            size: 14px;
+        }
+    
+        line-height: 21px;
+    }
+
+    #main-contacts{
+        position: relative;
+        left: 40px;
+        bottom: 35px;
+    }
+
+    .quick-links-section{
+        width: 384px;
+        height: 58.18px;
+        top: -210px;
+    }
+    
+    .quick-link-item{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 20px;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    
+    .quick-link-main-item{
+        font-weight: 700;
+    }
+    
+    .followUs-section{
+        position: relative;
+        left: 90%;
+        bottom: 210px;
+    }
+    
+    #follow{
+        position: relative;
+        left: 15px;
+    }
+    
+    table{
+        border-spacing: 20px;
+    }
+
+    .footer-item{
+        display: inline;
+    }
+    
+    #line{
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #footer-section{
+        color: white;
+        background-color: $redColor;
+    }
+       
+    .hawken-section{
+        width: 480px;
+        height: 58.18px;
+        top: -30px;
+    }
+    
+    .createdBy-section{
+        position: relative;
+        left: 77%;
+        bottom: 28px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #newsletter-section{
+        padding: 100px 300px;
+    }
+        
+    #line{
+        width: 110%;
+    }
+    
+    #footer-section{
+        color: white;
+        background-color: $redColor;
+        padding: 5px 300px;
+        padding-bottom: 20px;
+    }
+       
+    .hawken-section{
+        width: 384px;
+        height: 58.18px;
+        top: -30px;
+    }
+    
+    .createdBy-section{
+        left: 100%;
+        bottom: 28px;
+    }
+}
+

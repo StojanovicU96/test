@@ -1,0 +1,285 @@
+@media only screen and (max-width: 490px) {
+    .covid-section{
+        padding: 10px 20px !important;
+
+        p{
+            height: 50px !important;
+            width: 300px !important;
+            // font-size: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .covid-section{
+        background-color: $blackColor;
+        color: white;
+        padding: 10px 0;
+    
+        font: {
+            weight: 700;
+            size: 12px;
+        }
+    
+        p{
+            margin: 0 auto;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            width: 500px;
+            height: 18px;
+        }
+    }
+
+    #downPdfSection{
+        border-bottom: 1px solid white;
+        margin: 0 20px;
+        transition: 0.1s;
+    
+        &:hover{
+            border-bottom: 5px solid white; 
+            transition: 0.1s;
+            cursor: pointer;
+        }
+    }
+
+    .header-section{
+        padding: 50px !important;
+    }
+    
+    #logo-section{
+        display: inline;
+    }
+
+    .menu-icon{
+        display: inline;
+        float: right;
+        position: relative;
+        top: 50px;
+        border: none;
+        background-color: #E5E5E5;
+        font-family: $poppinsFont;
+        transition: 0.1s;
+
+        &:hover{
+            transition: 0.1s;
+            font-size: 20px;
+        }
+    }
+
+    .drop-menu{
+        display: none;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .menu-item{
+        text-transform: uppercase;
+        padding: 10px;
+    
+        font: {
+            weight: 700;
+            size: 13px;
+        }
+    
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    
+        &:hover{
+            background-color: $blackColor;
+            color: white;
+            transition: 0.2s;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+
+    #apply-now-btn{
+        margin: 0 auto;
+        background-color: #ED1C24;
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+        transition: 0.1s;
+
+        text: {
+            transform: uppercase;
+            align: center;
+        }
+
+        font: {
+            weight: 700;
+            family: $poppinsFont;
+            size: 12px;
+        }
+
+        &:hover{
+            padding: 30px;
+            transition: 0.1s;
+            background-color: black;
+            width: 100px;
+            height: 100px
+        }
+
+        color: white;
+        line-height: 119.5%;
+        border-radius: 50px;
+        -webkit-transition: 0.1s;
+        transition: 0.1s;
+        margin-bottom: 40px;
+    }
+
+    .login-line{
+        display: none;
+    }
+
+    .drop-menu{
+        display: none;
+    }
+
+    .menu-section-desk{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    .covid-section{
+        background-color: $blackColor;
+        color: white;
+        padding: 10px 0;
+    
+        font: {
+            weight: 700;
+            size: 12px;
+        }
+    
+        p{
+            margin: 0 auto;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            width: 500px;
+            height: 18px;
+        }
+    }
+
+    .menu-icon{
+        display: none !important;
+    }
+    
+    #apply-now-btn{
+        background-color: #ED1C24;
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+        transition: 0.1s;
+
+        position: relative;
+        left: 84%;
+
+        text: {
+            transform: uppercase;
+            align: center;
+        }
+
+        font: {
+            weight: 700;
+            family: $poppinsFont;
+            size: 12px;
+        }
+
+        &:hover{
+            padding: 30px;
+            transition: 0.1s;
+            background-color: black;
+            width: 100px;
+            height: 100px
+        }
+
+        color: white;
+        line-height: 119.5%;
+        border-radius: 50px;
+        -webkit-transition: 0.1s;
+        transition: 0.1s;
+        margin-bottom: 40px;
+    }
+
+    #downPdfSection{
+        border-bottom: 1px solid white;
+        margin: 0 20px;
+        transition: 0.1s;
+    
+        &:hover{
+            border-bottom: 5px solid white; 
+            transition: 0.1s;
+            cursor: pointer;
+        }
+    }
+    
+    .header-section{
+        padding: 50px !important;
+    }
+    
+    #logo-section{
+        display: inline;
+    }
+    
+    .drop-menu{
+        display: none !important;
+    }
+
+    .menu-section{
+        display: block;
+        display: inline;
+        position: relative;
+        top: 45px;
+        float: right; 
+    }
+
+    .menu-section-desk{
+        display: block;
+        display: inline;
+        position: relative;
+        top: 45px;
+        float: right; 
+    }
+    
+    .menu-item{
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 10px;
+    
+        font: {
+            weight: 700;
+            size: 13px;
+        }
+    
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    
+        &:hover{
+            background-color: $blackColor;
+            color: white;
+            transition: 0.2s;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    } 
+}
+
+@media only screen and (min-width: 1600px) {
+    .menu-item{
+        margin-right: 50px;
+    }
+
+    #apply-now-btn{
+        top: 120px;
+    }
+}

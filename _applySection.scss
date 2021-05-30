@@ -1,0 +1,72 @@
+@media only screen and (max-width: 999px) {
+    #apply-section{
+        padding: 50px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #apply-description{
+        font-size: 36px;
+        margin: 20px 0;
+    }
+
+    #apply-btn{
+        text-transform: uppercase;
+        background-color: $redColor;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            border-radius: 20px;
+            background-color: $blackColor;
+            height: 70px;
+            width: 220px;
+        }
+    
+        &:active{
+            background-color: $redColor;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    #apply-section{
+        padding: 50px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #apply-description{
+        font-size: 36px;
+        margin: 20px 0;
+    }
+
+    #apply-btn{
+        text-transform: uppercase;
+        background-color: $redColor;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        transition: 0.1s;
+    
+        &:hover{
+            transition: 0.1s;
+            border-radius: 20px;
+            background-color: $blackColor;
+            height: 70px;
+            width: 220px;
+        }
+    
+        &:active{
+            background-color: $redColor;
+        }
+    }
+}
+
+
